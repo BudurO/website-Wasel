@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,700;1,400&family=Tajawal:wght@300;400;500;700&display=swap");
+* {
+  font-family: "Tajawal", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  nav {
+    background-color: #749bc2;
+  }
+  .title-website {
+    color: #be1f1f;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  nav {
+    background-color: #749bc2;
+  }
+  .title-website {
+    color: #be1f1f;
+  }
+}
+/* Extra small devices (phones 14 pro max) */
+
+@media only screen and (min-width: 430px) and (max-width: 926px) {
+*{
+  margin: 0;
+  padding: 0;
+}
+nav {
+    background-color: #749bc2;
+   display: flex;
+   justify-content: space-between;
+   width: 26.9rem;
+   flex-wrap: nowrap;
+  }
+  .img-car-box{
+    margin-left: 9.5rem;
+  }
+  .img-car {
+    width: 20vw;
+    height: 5vh;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+  .icone-iphone{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+  }
+  .index {
+    display: none;
+  }
+  .index-page {
+    display: none;
+  }
+  .products {
+    display: none;
+  }
+  .products-button {
+    display: none;
+    text-decoration: none;
+  }
+  .products-button:hover {
+    display: none;
+  }
+  .sign-up {
+    display: none;
+  }
+  .log-in {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .box-text {
+    background-color: #4682a96b;
+    width: 70vw;
+    height: 40vh;
+    color: #4682a9;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .text-server {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-car {
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    width: 10rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  .line {
+    width: 10vw;
+    background-color: white;
+    height: 0.4vh;
+  }
+  .img-booking-box {
+    display: flex;
+    justify-content: center;
+  }
+  .img-booking {
+    width: 60vw;
+    height: 40vh;
+  }
+  .box-text-Services {
+    background-color: #4682a96b;
+    width: 90vw;
+    height: 44vh;
+    color: #4682a9;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 15px;
+    margin-top: 6.5rem;
+  }
+  .button-general {
+    color: #ffffff;
+    border: none;
+    background-color: #4682a952;
+    border-radius: 1px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+    margin-left: 3rem;
+  }
+  .box-order{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+  }
+  .Book-order-now{
+    margin: 0.5rem;
+    margin-left: 16rem;
+
+  }
+  .time-reservation{
+margin: 0.5rem;
+margin-left: 18rem;
+  }
+  .time-box{
+    margin:1rem;
+  }
+  .location{
+    margin-top: 0.5rem;
+    margin-left: 16.5rem;
+
+  }
+  .location-box{
+    margin: 1rem;
+  }
+  .style-date {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 0.3rem 2rem;
+  }
+  .booking-now {
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+    display: block;
+  }
+  .booking-now:hover{
+    background-color: #91c8e4;
+    cursor: pointer;
+    color: #4682a9;
+  }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  nav {
+    background-color: #749bc2;
+  }
+  .title-website {
+    color: #be1f1f;
+  }
+}
+
+/* devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+  nav {
+    background-color: #749bc2;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(5, auto);
+    align-items: center;
+    justify-content: space-around;
+  }
+  .img-car {
+    grid-column: 5/6;
+    width: 150px;
+    height: 61px;
+    margin: 0.5rem 0.5rem 0.5rem 40rem;
+  }
+  .icone-iphone{
+    display: none;
+  }
+  .index {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+  .index-page {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .products {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+  .products-button {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .products-button:hover {
+    background-color: #91c8e4;
+  }
+  .sign-up {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+  .log-in {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    gap: 16px;
+    margin-top: 9rem;
+  }
+  .box-text {
+    background-color: #4682a96b;
+    width: 50vw;
+    height: 60vh;
+    color: #4682a9;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+  }
+  .text-server {
+    display: flex;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-car {
+    display: flex;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 10rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  .line {
+    width: 10vw;
+    background-color: white;
+    height: 0.4vh;
+  }
+  .img-booking-box {
+    grid-column: 2/3;
+  }
+  .img-booking {
+    width: 40vw;
+    height: 60vh;
+  }
+  .box-text-Services {
+    background-color: #4682a96b;
+    width: 40vw;
+    height: 40vh;
+    color: #4682a9;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 15px;
+    margin-top: 6.5rem;
+  }
+  .button-general {
+    color: #ffffff;
+    border: none;
+    background-color: #4682a952;
+    border-radius: 1px;
+    width: 200px;
+    height: 30px;
+    font-size: 0.7rem;
+    margin-left: 0.6rem;
+  }
+  .box-order{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+  }
+  .Book-order-now{
+    margin: 0.5rem;
+    margin-left: 16rem;
+
+  }
+  .time-reservation{
+margin: 0.5rem;
+margin-left: 18rem;
+  }
+  .time-box{
+    margin:1rem;
+  }
+  .location{
+    margin-top: 0.5rem;
+    margin-left: 16.5rem;
+
+  }
+  .location-box{
+    margin: 1rem;
+  }
+  .style-date {
+    background-color: #d9d9d9;
+    border: none;
+    padding: 0.3rem 2rem;
+  }
+  .booking-now {
+    color: #ffffff;
+    border: none;
+    background-color: #4682a9;
+    border-radius: 11px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.7rem;
+    display: block;
+  }
+  .booking-now:hover{
+    background-color: #91c8e4;
+    cursor: pointer;
+    color: #4682a9;
+  }
+}
+
