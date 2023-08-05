@@ -328,6 +328,11 @@ margin-left: 18rem;
       border: none;
       padding: 0.3rem ;
     }
+    .style-location{
+      background-color: #d9d9d9;
+      border: none;
+      padding: 0.3rem ;
+    }
     .booking-now {
       color: #ffffff;
       border: none;
@@ -495,6 +500,11 @@ margin-left: 18rem;
     background-color: #d9d9d9;
     border: none;
     padding: 0.3rem 2rem;
+  }
+  .style-location{
+    background-color: #d9d9d9;
+    border: none;
+    padding: 0.3rem ;
   }
   .booking-now {
     color: #ffffff;
@@ -697,6 +707,11 @@ margin-left: 18rem;
     background-color: #d9d9d9;
     border: none;
     padding: 0.3rem 2rem;
+  }
+  .style-location{
+    background-color: #d9d9d9;
+    border: none;
+    padding: 0.3rem ;
   }
   .booking-now {
     color: #ffffff;
